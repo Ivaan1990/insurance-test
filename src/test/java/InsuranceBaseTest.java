@@ -8,7 +8,11 @@ import pages.MainPage;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class InsurancePageObjectTest {
+/**
+ * @author Ivan Yushin
+ *
+ */
+public class InsuranceBaseTest {
     public static Properties properties = TestProperties.getInstance().getProperties();
     public static String url;
 
