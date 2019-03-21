@@ -1,14 +1,1 @@
-package pages;
-
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-
-public class MainPage {
-    @FindBy(xpath = "//*/ol/li/a[contains(text(), 'Страхование')]")
-    public WebElement openInsuranceBar;
-
-    public MainPage(){
-        PageFactory.initElements(Init.getDriver(),this);
-    }
-}
+package pages;import org.openqa.selenium.WebElement;import org.openqa.selenium.support.FindBy;import org.openqa.selenium.support.PageFactory;import java.util.List;public class MainPage  extends BasePage{    //@FindBy(xpath = "//*/ol/li/a[contains(text(), 'Страхование')]")    //private WebElement openInsuranceBar;    //@FindBy(xpath = "//*[contains(@class, 'grid rgs-main-menu-links')]//ul/li")    //private List<WebElement> insuranceCategories;    @FindBy(xpath = "//*[@href=\"/products/private_person/auto/index.wbp\"]")    private WebElement openCarInsurance;    @FindBy(xpath = "//*[@href=\"/products/private_person/tour/index.wbp\"]")    private WebElement openTravelInsurance;/*    public void printCategories(){        openInsuranceBar.click();        //insuranceCategories.stream().map(WebElement::getText).forEach(System.out::println);    }*/    public void getCarInsurance(){        openCarInsurance.click();    }}

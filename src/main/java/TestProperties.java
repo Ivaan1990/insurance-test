@@ -10,7 +10,7 @@ public class TestProperties {
 
     private TestProperties(){
         try {
-            properties.load(new FileInputStream(new File(".\\" + System.getProperty("environment") + ".properties")));
+            properties.load(new FileInputStream(new File("C:\\Users\\Asus\\Desktop\\insurance-test\\" + System.getProperty("environment") + ".properties")));
         } catch (IOException ex){
             ex.printStackTrace();
         }
