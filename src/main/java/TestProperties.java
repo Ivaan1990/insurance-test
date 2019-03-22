@@ -3,7 +3,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-
+/**
+ * @author Ivan Yushin
+ */
 public class TestProperties {
     private final Properties properties = new Properties();
     private static TestProperties INSTANCE = null;
