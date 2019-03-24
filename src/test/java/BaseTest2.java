@@ -39,14 +39,14 @@ public class BaseTest2 {
 
     @Test
     public void insurance(){
-        MainPage mainPage = new MainPage(); // главная страница rgs
+        MainPage mainPage = new MainPage(); // РіР»Р°РІРЅР°СЏ СЃС‚СЂР°РЅРёС†Р° rgs
         mainPage.printAllCategoriesOfInsurance();
         mainPage.getCarInsurance();
         CarInsurancePage pageCarInsurance = new CarInsurancePage();
-        //pageCarInsurance.choiseCarInsuranceType("осаго");
-        pageCarInsurance.choiseCarInsuranceType("каско");
-        //pageCarInsurance.choiseCarInsuranceType("зеленая карта");
-        //pageCarInsurance.choiseCarInsuranceType("Антикризисное каско");
+        //pageCarInsurance.choiseCarInsuranceType("РѕСЃР°РіРѕ");
+        pageCarInsurance.choiseCarInsuranceType("РєР°СЃРєРѕ");
+        //pageCarInsurance.choiseCarInsuranceType("Р·РµР»РµРЅР°СЏ РєР°СЂС‚Р°");
+        //pageCarInsurance.choiseCarInsuranceType("РђРЅС‚РёРєСЂРёР·РёСЃРЅРѕРµ РєР°СЃРєРѕ");
     }
 
     @Test
