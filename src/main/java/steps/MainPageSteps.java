@@ -5,7 +5,7 @@ import pages.MainPage;
 
 public class MainPageSteps {
 
-    @Step("Выбираем пункт меню 'Автомобиль'")
+    @Step("Р’С‹Р±РёСЂР°РµРј РїСѓРЅРєС‚ РјРµРЅСЋ 'РђРІС‚РѕРјРѕР±РёР»СЊ'")
     public void selectMiddleItem(){
         new MainPage().getCarInsurance();
     }

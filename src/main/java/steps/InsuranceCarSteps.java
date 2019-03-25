@@ -7,10 +7,10 @@ import pages.CarInsurancePage;
 
 public class InsuranceCarSteps {
 
-    @Step("заголовок страницы равен")
+    @Step("Р·Р°РіРѕР»РѕРІРѕРє СЃС‚СЂР°РЅРёС†С‹ СЂР°РІРµРЅ")
     public void checkPageTitle(String title){
         WebElement element = new CarInsurancePage().title;
-        Assert.assertEquals("Заголовок не соответстует ожидаемому", title, element.getText());
+        Assert.assertEquals("Р—Р°РіРѕР»РѕРІРѕРє РЅРµ СЃРѕРѕС‚РІРµС‚СЃС‚СѓРµС‚ РѕР¶РёРґР°РµРјРѕРјСѓ", title, element.getText());
     }
 
 }

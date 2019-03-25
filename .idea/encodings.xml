@@ -3,6 +3,8 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1251">
     <file url="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/pages/CarInsurancePage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/steps/InsuranceCarSteps.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/steps/MainPageSteps.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/steps/ScenarioSteps.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/steps/SimpleSteps.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources/features/InsuranceScenario.feature" charset="UTF-8" />
