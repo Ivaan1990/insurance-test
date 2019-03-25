@@ -12,11 +12,14 @@ import java.util.List;
  * @see #choiseInsuranceType(String) параметр, тип страхования осаго/каско/зеленая карта/антикризисное каско
  * @see #printTypesOfCarInsurance() все виды страхования авто в консоль
  */
-public class CarInsurancePage  extends BasePage {
+public class CarInsurancePage extends BasePage {
     public static final String XPATH_INSURANCE_TYPE = "//h3[text()='%s']";
 
     @FindBy(xpath = "//*[@class='content-document']//h3")
     private List<WebElement> typesInsurance;
+
+    @FindBy(xpath = "//*[@class='content-document-header']")
+    public WebElement title;
 
     public CarInsurancePage(){
         super();
